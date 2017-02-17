@@ -1,18 +1,15 @@
 # What is this?
 
-This is a collection of shell scripts used to download + upload a Google Scripts project without needing to know every command.
-I made this so you can easily copy this environment into a folder and setup a collaborative editor or edit using tools you're more comfortable with.
+This is a collection of small shell scripts that simplify node-google-apps-script's process of downloading/uploading Google Scripts project files.
+I made this so you can easily copy this setup into a folder and setup a collaborative editor or edit using tools you're more comfortable with.
 
 
 
 # How to install
 
-First we need to download one of the two environments.
+We're going to be working within the folder matching your OS
 
-* Find the folder matching your OS
-* Copy its contents into a folder that you would like to setup as the environment.
-
-Next we need to setup a Google API Console Project for our scripts to be able to access files from your account.
+First we need to setup a Google API Console Project for our scripts to be able to access files from your account.
 
 * Create a project using this [link](https://console.developers.google.com/start/api?id=drive&credential=client_key)
 * Follow the steps until you get to the credentials setup
