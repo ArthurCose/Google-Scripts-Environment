@@ -26,13 +26,13 @@ We are pretty much finished, but we need to save the project ID so our scripts k
 
 After you accomplish that, run the auth.* script through a terminal to authenticate yourself with Google.
 
-You're now done, the download.* script will download the entire Google Script Project into the "project" folder, and the upload.* will upload the entire "project" folder. (both commands will replace existing documents)
+You're now done, the download.* script will download the entire Google Scripts Project into the "project" folder, and the upload.* will upload the entire "project" folder. (both commands will replace existing documents)
 
 
 
-# How to get the project ID for a Google Script project:
+# How to get the project ID for a Google Scripts project:
 
-* Inside of your Google Script project click on "File" from the toolbar
+* Inside of your Google Scripts project click on "File" from the toolbar
 * Click on Project Properties (should be at the bottom of the list)
 * You should see Script ID (unless Google made some changes)
 * You can copy the ID into "projectid.txt"
